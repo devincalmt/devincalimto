@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-pink-pastel-100 {
+  background-color: #ffeaea;
+}
+
+.hover\:bg-pink-pastel-100:hover {
+  background-color: #ffeaea;
+}
+
+.text-pink-pastel-100 {
+  color: #ffeaea;
+}
+
+.bg-pink-pastel-200 {
+  background-color: #ffe1e1;
+}
+
+.hover\:bg-pink-pastel-200:hover {
+  background-color: #ffe1e1;
+}
+
+.text-pink-pastel-200 {
+  color: #ffe1e1;
+}
+
+.bg-pink-pastel-300 {
+  background-color: #ffd8d8;
+}
+
+.hover\:bg-pink-pastel-300:hover {
+  background-color: #ffd8d8;
+}
+
+.text-pink-pastel-300 {
+  color: #ffd8d8;
+}
+
+.bg-pink-pastel-400 {
+  background-color: #ffc3c3;
+}
+
+.hover\:bg-pink-pastel-400:hover {
+  background-color: #ffc3c3;
+}
+
+.text-pink-pastel-400 {
+  color: #ffc3c3;
+}
+
+.bg-pink-pastel-500 {
+  background-color: #ffb0b0;
+}
+
+.hover\:bg-pink-pastel-500:hover {
+  background-color: #ffb0b0;
+}
+
+.text-pink-pastel-500 {
+  color: #ffb0b0;
+}
+
+* {
+  font-family: 'Poppins';
+}
+
+.title {
+  font-family: 'PrahoPro';
+}
+
+/* [class^="pink-pastel-"] {
+    background-color: var(--pink-pastel-100);
+} */
+/*# sourceMappingURL=styles.css.map */
