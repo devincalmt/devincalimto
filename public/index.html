@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="asset/font/Poppins/stylesheet.css">
     <link rel="stylesheet" href="asset/fontawesome/css/fontawesome.min.css">
     <script src="https://use.fontawesome.com/46daf35aa3.js"></script>
+    <script src="jquery.js"></script>
+    <script src="../src/scripts.js"></script>
 </head>
 <body>
     <!-- About -->
-    <header class="bg-gray-100">
+    <header class="bg-gray-100" id="about">
         <div class="p-9 max-w-6xl mx-auto">
             <nav>
                 <div class="flex">
@@ -36,17 +38,25 @@
                             <div class="pb-4">
                                 <p class="text-lg">Fullstack Developer With More Than 3 Years of Experience as Software Developer and Lecturer</p>
                             </div>
-                            <div>
-                                <div>
-                                    <button type="button" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-pink-pastel-400 hover:bg-pink-pastel-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                            <div class="flex items-center">
+                                <div class="pr-5">
+                                    <button type="button" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-pink-pastel-400 hover:bg-pink-pastel-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-pastel-200">
                                         See my porfolio
                                     </button>
                                 </div>
-                                <div>
+                                <div class="grid grid-cols-4 gap-4">
+                                    <a href="https://www.linkedin.com/in/devinca-limto-1a9b5b186/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                    <a href="https://t.me/devincalmt">
+                                        <i class="fa fa-telegram"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/devincalmt/">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
                                     <a href="https://github.com/devincalmt">
                                         <i class="fa fa-github"></i>
                                     </a>
-                                    <i class="fa fa-github"></i>
                                 </div>
                             </div>
                         </div>
@@ -58,11 +68,58 @@
             </div>
         </div>
     </header>
+
     <!-- Experience -->
+    <section id="experience">
+        <div class="p-9 max-w-6xl mx-auto">
+            <h4 class="text-3xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 my-2 title text-center">Experience</h4>
+        </div>
+    </section>
+
     <!-- Skills -->
+
     <!-- Awards -->
+    <section id="awards">
+        <div class="p-9 max-w-6xl mx-auto">
+            <h4 class="text-3xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 my-2 title text-center">Honors & awards</h4>
+            <!-- cek design odre yang experience sama linkedin -->
+        </div>
+    </section>
+
     <!-- Projects -->
+    
     <!-- Contacts -->
+    <section id="contacts">
+        <div class="max-w-2xl mx-auto text-center contact-container">
+            <div>
+                <h4 class="text-3xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 my-2 title text-center">
+                    Interested to work <br>
+                    with me?
+                </h4>
+            </div>
+            <div class="py-3">
+                <a href="mailto: devincalimtobisnis@gmail.com">
+                    <button type="button" class="inline-flex items-center px-6 py-3 border text-base font-medium rounded-full shadow-sm bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-pastel-200">
+                        devincalimtobisnis@gmail.com
+                    </button>
+                </a>
+            </div>
+            <div class="contact-social-media">
+                <a href="https://www.linkedin.com/in/devinca-limto-1a9b5b186/">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="https://t.me/devincalmt">
+                    <i class="fa fa-telegram"></i>
+                </a>
+                <a href="https://www.instagram.com/devincalmt/">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://github.com/devincalmt">
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>
