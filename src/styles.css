@@ -7,7 +7,7 @@
 }
 
 .title {
-  font-family: 'PrahoPro';
+  font-family: 'Carmen Sans';
 }
 
 #contacts .contact-social-media a{
@@ -27,4 +27,27 @@
   box-sizing: border-box;
   border: 2px solid #ffd8d8;
   outline: 10px solid white;
+}
+
+.mini-line{
+  display: flex;
+  height: 1em;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1em;
+}
+
+.mini-line div{
+  width: 2em;
+  border-top: 0.5px solid black;
+  box-sizing: border-box;
+  height: 0;
+}
+
+.skills-description{
+  width: 75%;
+}
+
+.skills-description .title {
+  line-height: 1.25em;
 }
