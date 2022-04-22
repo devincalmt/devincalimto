@@ -546,6 +546,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-row: span 3 / span 3;
 }
 
+.row-span-full {
+  grid-row: 1 / -1;
+}
+
 .row-start-2 {
   grid-row-start: 2;
 }
@@ -560,8 +564,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.5rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .block {
@@ -600,8 +613,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.h-auto {
+  height: auto;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
 .h-1 {
   height: 0.25rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.min-w-0 {
+  min-width: 0px;
 }
 
 .max-w-6xl {
@@ -610,6 +647,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-2xl {
   max-width: 42rem;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 .shrink {
@@ -658,16 +699,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-template-rows: repeat(6, minmax(0, 1fr));
 }
 
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-x-12 {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+
+.gap-y-4 {
+  row-gap: 1rem;
+}
+
+.gap-x-3 {
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
 }
 
 .rounded-full {
@@ -694,6 +761,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-pink-pastel-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 195 195 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -731,8 +803,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.25rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-2xl {
@@ -750,9 +842,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.5rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-\[1\.25em\] {
+  font-size: 1.25em;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-semibold {
@@ -771,6 +877,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-style: italic;
 }
 
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -784,6 +898,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -818,6 +937,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .title {
   font-family: 'Carmen Sans';
+  /* font-family: 'Praho Pro'; */
 }
 
 #contacts .contact-social-media a{
@@ -827,7 +947,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 #contacts{
   padding: 5em;
-  background-image: url('../public/asset/img/contact-background.jpg');
+  background-image: url('asset/img/contact-background.jpg');
 }
 
 #contacts .contact-container{
@@ -862,6 +982,39 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25em;
 }
 
+.company-right {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-bottom: 3px solid black;
+}
+
+.company-right * {
+  padding-bottom: 0.5em;
+}
+
+.rect-img-container {
+  position: relative;
+}
+
+.rect-img-container::after {
+  content: "";
+  display: block;
+  /* padding-bottom: 100%; */
+}
+
+.rect-img {
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.awards-item{
+  border-bottom: 1px solid gainsboro;
+}
+
 .hover\:bg-pink-pastel-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 176 176 / var(--tw-bg-opacity));
@@ -892,6 +1045,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-ring-offset-width: 2px;
 }
 
+.group:hover .group-hover\:bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
 @media (prefers-color-scheme: dark) {
   .dark\:text-gray-200 {
     --tw-text-opacity: 1;
@@ -905,9 +1063,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 1;
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:text-5xl {
