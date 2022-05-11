@@ -1,0 +1,44 @@
+[
+    {
+        "company_name": "Bina Nusantara University",
+        "company_image": "/asset/img/logo-binus.png",
+        "start_date": "02-01-2019",
+        "end_date": "",
+        "current_job": true,
+        "position": [
+            {
+                "name": "Operations Management Officer",
+                "start_date": "Sep 2020",
+                "end_date": "",
+                "current_position": true
+            },
+            {
+                "name": "Subject Coordinator",
+                "start_date": "Feb 2020",
+                "end_date": "Aug 2020",
+                "current_position": false
+            },
+            {
+                "name": "Teaching Assistant",
+                "start_date": "Feb 2019",
+                "end_date": "Feb 2020",
+                "current_position": false
+            }
+        ]
+    },
+    {
+        "company_name": "PT Bank Central Asia Tbk",
+        "company_image": "/asset/img/bca-logo.jpg",
+        "start_date": "06-01-2020",
+        "end_date": "",
+        "current_job": true,
+        "position": [
+            {
+                "name": "Teaching Assistant",
+                "start_date": "Jun 2020",
+                "end_date": "",
+                "current_position": true
+            }
+        ]
+    }
+]

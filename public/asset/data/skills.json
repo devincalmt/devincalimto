@@ -1,0 +1,66 @@
+[
+    {
+        "name": "HTML",
+        "image": "/asset/img/HTML.svg"
+    },
+    {
+        "name": "CSS",
+        "image": "/asset/img/CSS.svg"
+    },
+    {
+        "name": "Javascript",
+        "image": "/asset/img/JS.svg"
+    },
+    {
+        "name": "JQuery",
+        "image": "/asset/img/JQuery.svg"
+    },
+    {
+        "name": "Bootstrap",
+        "image": "/asset/img/Bootstrap.svg"
+    },
+    {
+        "name": "Tailwind",
+        "image": "/asset/img/Tailwind.svg"
+    },
+    {
+        "name": "React",
+        "image": "/asset/img/React.svg"
+    },
+    {
+        "name": "Laravel",
+        "image": "/asset/img/Laravel.svg"
+    },
+    {
+        "name": "MSSQL",
+        "image": "/asset/img/MSSQL.svg"
+    },
+    {
+        "name": "MySQL",
+        "image": "/asset/img/MySQL.svg"
+    },
+    {
+        "name": "MongoDB",
+        "image": "/asset/img/MongoDB.svg"
+    },
+    {
+        "name": "Python",
+        "image": "/asset/img/Python.svg"
+    },
+    {
+        "name": "Java",
+        "image": "/asset/img/Java.svg"
+    },
+    {
+        "name": "C / C++",
+        "image": "/asset/img/C.svg"
+    },
+    {
+        "name": "Android",
+        "image": "/asset/img/Android.svg"
+    },
+    {
+        "name": "Git",
+        "image": "/asset/img/Git.svg"
+    }
+]

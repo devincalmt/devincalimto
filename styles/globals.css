@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins';
+}
+
+.title {
+  font-family: 'Carmen Sans';
+}
+
+#contacts .contact-social-media a{
+  font-size: 1.5em;
+  padding: 0.25em;
+}
+
+#contacts{
+  background-image: url('../public/asset/img/contact-background.jpg');
+}
+
+#contacts .contact-container{
+  background-color: white;
+  border-radius: 1.5em;
+  box-sizing: border-box;
+  border: 2px solid #ffd8d8;
+  outline: 10px solid white;
+}
+
+.mini-line{
+  display: flex;
+  height: 1em;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1em;
+}
+
+.mini-line div{
+  width: 2em;
+  border-top: 0.5px solid black;
+  box-sizing: border-box;
+  height: 0;
+}
+
+.skills-description{
+  /* width: 75%; */
+}
+
+.skills-description .title {
+  line-height: 1.25em;
+}
+
+.company-right {
+  height: fit-content;
+  border-bottom: 3px solid black;
+}
+
+.company-right * {
+  padding-bottom: 0.5em;
+}
+
+.rect-img-container {
+  position: relative;
+}
+
+.rect-img-container::after {
+  content: "";
+  display: block;
+}
+
+.rect-img {
+  position: absolute;
+  width: 100%;
+  object-fit: contain;
+}
+
+.awards-item{
+  border-bottom: 1px solid gainsboro;
+}
+
+#slider .item {
+  margin-bottom: 0.5em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+#slider .item img {
+  border-radius: 5px;
+}
+
+#slider .item-description {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px; 
+  color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+  /* font-size: 0.75em; */
+}
+
+#slider .item-description .button {
+  font-size: 1em;
+}
+
+#slider .item-description:hover {
+  background-color: black;
+  transition: 0.5s;
+  color: white;
+}
+
+#slider .item-description p {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+}
+
+#slider .item-description .button {
+  background: transparent;
+  color: transparent;
+}
+
+#slider .item-description:hover .button {
+  background-color: #ffc3c3;
+  color: white;
+}
+
+#slider .item-description:hover .button.Public:hover {
+  background-color: #ffb0b0;
+}
+
+#slider .item-description:hover .button.Private {
+  background-color: gainsboro;
+  cursor: default;
+}
+
+#projects .information {
+  font-weight: 500;
+  text-align: center;
+}
+
+.owl-dots {
+  text-align: center;
+}
+
+.owl-dots button.owl-dot span {
+  background: #e2e2e2;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  border-radius: 50%;
+  top: 1px;
+  left:1px;
+}
+
+.owl-dots button.owl-dot.active span, 
+  .owl-dots button.owl-dot:hover span {
+  background-color: black;
+}
+
+.owl-dots button.owl-dot{
+  border: 1px solid gray;
+  background: gray;
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  position: relative;
+  margin: 0.5em;
+}
