@@ -1,0 +1,51 @@
+[
+    {
+        "title": "SLC Upload Recording",
+        "description": "BINUS internal website to facilitate students for uploading their recordings while doing assignments.",
+        "type": "Private",
+        "link": "",
+        "image": "/asset/img/project-slc-upload-recording.png"
+    },
+    {
+        "title": "LOME System",
+        "description": "BINUS Internal Website for monitoring and evaluating enrichment students' progress.",
+        "type": "Private",
+        "link": "",
+        "image": "/asset/img/project-lome-system.png"
+    },
+    {
+        "title": "Maju Jaya Motor",
+        "description": "A website to facilitate offline and online transaction in Maju Jaya Motor",
+        "type": "Public",
+        "link": "https://www.mjmotor.net/",
+        "image": "/asset/img/project-mjmotor.png"
+    },
+    {
+        "title": "Cyeveat",
+        "description": "A social media platform designed for people to review restaurants listed on cyeveat.",
+        "type": "Public",
+        "link": "https://play.google.com/store/apps/details?id=edu.bluejack19_1.cyeveat",
+        "image": "/asset/img/project-cyeveat.png"
+    },
+    {
+        "title": "Littlecloud EO",
+        "description": "A digital platform to help customer personalized and plan their budget, design, and event concepts.",
+        "type": "Public",
+        "link": "http://littlecloudeo.com/",
+        "image": "/asset/img/project-littlecloudeo.png"
+    },
+    {
+        "title": "Tiara Network",
+        "description": "A website for selling educational content for the member.",
+        "type": "Private",
+        "link": "",
+        "image": "/asset/img/project-tiara-network.png"
+    },
+    {
+        "title": "Enrichment SoCS Bot",
+        "description": "An AI-based chatbot to help answer students' questions.",
+        "type": "Private",
+        "link": "",
+        "image": "/asset/img/project-chatbot.png"
+    }
+]

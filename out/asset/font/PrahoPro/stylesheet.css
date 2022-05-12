@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-Light.eot');
+    src: local('Praho Pro Light'), local('PrahoPro-Light'),
+        url('PrahoPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-Light.woff2') format('woff2'),
+        url('PrahoPro-Light.woff') format('woff'),
+        url('PrahoPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-RegularItalic.eot');
+    src: local('Praho Pro Regular Italic'), local('PrahoPro-RegularItalic'),
+        url('PrahoPro-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-RegularItalic.woff2') format('woff2'),
+        url('PrahoPro-RegularItalic.woff') format('woff'),
+        url('PrahoPro-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-ExtraLight.eot');
+    src: local('Praho Pro ExtraLight'), local('PrahoPro-ExtraLight'),
+        url('PrahoPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-ExtraLight.woff2') format('woff2'),
+        url('PrahoPro-ExtraLight.woff') format('woff'),
+        url('PrahoPro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-ThinItalic.eot');
+    src: local('Praho Pro Thin Italic'), local('PrahoPro-ThinItalic'),
+        url('PrahoPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-ThinItalic.woff2') format('woff2'),
+        url('PrahoPro-ThinItalic.woff') format('woff'),
+        url('PrahoPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-BoldItalic.eot');
+    src: local('Praho Pro Bold Italic'), local('PrahoPro-BoldItalic'),
+        url('PrahoPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-BoldItalic.woff2') format('woff2'),
+        url('PrahoPro-BoldItalic.woff') format('woff'),
+        url('PrahoPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-Medium.eot');
+    src: local('Praho Pro Medium'), local('PrahoPro-Medium'),
+        url('PrahoPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-Medium.woff2') format('woff2'),
+        url('PrahoPro-Medium.woff') format('woff'),
+        url('PrahoPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-Thin.eot');
+    src: local('Praho Pro Thin'), local('PrahoPro-Thin'),
+        url('PrahoPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-Thin.woff2') format('woff2'),
+        url('PrahoPro-Thin.woff') format('woff'),
+        url('PrahoPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-ExtraBold.eot');
+    src: local('Praho Pro ExtraBold'), local('PrahoPro-ExtraBold'),
+        url('PrahoPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-ExtraBold.woff2') format('woff2'),
+        url('PrahoPro-ExtraBold.woff') format('woff'),
+        url('PrahoPro-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-Regular.eot');
+    src: local('Praho Pro Regular'), local('PrahoPro-Regular'),
+        url('PrahoPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-Regular.woff2') format('woff2'),
+        url('PrahoPro-Regular.woff') format('woff'),
+        url('PrahoPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Praho Pro Hairline';
+    src: url('PrahoPro-HairlineItalic.eot');
+    src: local('Praho Pro Hairline Italic'), local('PrahoPro-HairlineItalic'),
+        url('PrahoPro-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-HairlineItalic.woff2') format('woff2'),
+        url('PrahoPro-HairlineItalic.woff') format('woff'),
+        url('PrahoPro-HairlineItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-BlackItalic.eot');
+    src: local('Praho Pro Black Italic'), local('PrahoPro-BlackItalic'),
+        url('PrahoPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-BlackItalic.woff2') format('woff2'),
+        url('PrahoPro-BlackItalic.woff') format('woff'),
+        url('PrahoPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-Bold.eot');
+    src: local('Praho Pro Bold'), local('PrahoPro-Bold'),
+        url('PrahoPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-Bold.woff2') format('woff2'),
+        url('PrahoPro-Bold.woff') format('woff'),
+        url('PrahoPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-LightItalic.eot');
+    src: local('Praho Pro Light Italic'), local('PrahoPro-LightItalic'),
+        url('PrahoPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-LightItalic.woff2') format('woff2'),
+        url('PrahoPro-LightItalic.woff') format('woff'),
+        url('PrahoPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Praho Pro Hairline';
+    src: url('PrahoPro-Hairline.eot');
+    src: local('Praho Pro Hairline'), local('PrahoPro-Hairline'),
+        url('PrahoPro-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-Hairline.woff2') format('woff2'),
+        url('PrahoPro-Hairline.woff') format('woff'),
+        url('PrahoPro-Hairline.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-ExtraLightItalic.eot');
+    src: local('Praho Pro ExtraLight Italic'), local('PrahoPro-ExtraLightItalic'),
+        url('PrahoPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-ExtraLightItalic.woff2') format('woff2'),
+        url('PrahoPro-ExtraLightItalic.woff') format('woff'),
+        url('PrahoPro-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-Black.eot');
+    src: local('Praho Pro Black'), local('PrahoPro-Black'),
+        url('PrahoPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-Black.woff2') format('woff2'),
+        url('PrahoPro-Black.woff') format('woff'),
+        url('PrahoPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-ExtraBoldItalic.eot');
+    src: local('Praho Pro ExtraBold Italic'), local('PrahoPro-ExtraBoldItalic'),
+        url('PrahoPro-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-ExtraBoldItalic.woff2') format('woff2'),
+        url('PrahoPro-ExtraBoldItalic.woff') format('woff'),
+        url('PrahoPro-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Praho Pro';
+    src: url('PrahoPro-MediumItalic.eot');
+    src: local('Praho Pro Medium Italic'), local('PrahoPro-MediumItalic'),
+        url('PrahoPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('PrahoPro-MediumItalic.woff2') format('woff2'),
+        url('PrahoPro-MediumItalic.woff') format('woff'),
+        url('PrahoPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+

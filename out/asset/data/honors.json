@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Best TPA Performing Assistant",
+        "issued_by": "Software Laboratory Center, Binus University",
+        "date": "Feb 2020",
+        "description": "Test Progressive Assistant (TPA) is a test to develop assistant skills in programming. There are 5 areas that will be tested which are: 3D Game Programming, Desktop Programming, Web Design and Programming, Networking, and Mobile Programming. The assistant is asked to create a project that is like the original for example in Web Programming I imitate the website Airbnb with all its functionality. The assistant who has the highest score in five TPA will be the Best TPA Performing Assistant.",
+        "short_description": "Test Progressive Assistant (TPA) is a test to develop assistant skills in programming."
+    },
+    {
+        "name": "Indonesian National Science Olympiad (OSN)",
+        "issued_by": "Kementerian Pendidikan dan Kebudayaan Republik Indonesia (Kemendikbud)",
+        "date": "Mar 2017",
+        "description": "Fifth winner for Informatics in the Indonesian National Science Olympiad City level (OSK) 2017 for Senior High School.",
+        "short_description": "Fifth winner for Informatics in the Indonesian National Science Olympiad City level (OSK) 2017 for Senior High School."
+    },
+    {
+        "name": "Indonesian National Science Olympiad (OSN)",
+        "issued_by": "Kementerian Pendidikan dan Kebudayaan Republik Indonesia (Kemendikbud)",
+        "date": "May 2014",
+        "description": "Bronze Medal for Social Studies in the Indonesian National Science Olympiad (OSN) 2014 for Junior High School.",
+        "short_description": "Bronze Medal for Social Studies in the Indonesian National Science Olympiad (OSN) 2014 for Junior High School."
+    },
+    {
+        "name": "Gunadarma Choir Festival",
+        "issued_by": "Gunadarma University",
+        "date": "Jan 2017",
+        "description": "Gold Medal of Gunadarma Choir Festival 2017 for Senior High School.",
+        "short_description": "Gold Medal of Gunadarma Choir Festival 2017 for Senior High School."
+    }
+]
