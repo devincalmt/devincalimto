@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script';
 import styles from '../styles/Home.module.css'
 import Slider from './slider';
 
@@ -35,46 +36,50 @@ export default function Home() {
 
   return (
     <div>
-      <Head>
-        <title>Devinca Limto</title>
-        <meta name="description" content="Devinca Limto" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+        <Head>
+            <title>Devinca Limto</title>
+            <meta name="description" content="Devinca Limto" />
+            <link rel="icon" href="/favicon.ico" />
+        </Head>
+
+        <Script src="https://use.fontawesome.com/46daf35aa3.js"></Script>
+        <Script src="/js/jquery.js"></Script>
+        <Script src="/js/scripts.js"></Script>
 
       <main>
         {/* About */}
         <header className="bg-gray-100" id="about">
             <div className="sm:p-9 max-w-7xl mx-auto">
             {/* <!-- This example requires Tailwind CSS v2.0+ --> */}
-            <nav class="pl-4 sm:pl-0 bg-pink-pastel-400 sm:bg-transparent">
-                <div class="mx-auto">
-                    <div class="relative flex items-center justify-between h-16 ">
-                    <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <nav className="pl-4 sm:pl-0 bg-pink-pastel-400 sm:bg-transparent">
+                <div className="mx-auto">
+                    <div className="relative flex items-center justify-between h-16 ">
+                    <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                         {/* <!-- Mobile menu button--> */}
-                        <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" id="mobile-menu-button" aria-expanded="false">
-                        <span class="sr-only">Open main menu</span>
+                        <button type="button" className="inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" id="mobile-menu-button" aria-expanded="false">
+                        <span className="sr-only">Open main menu</span>
                         
-                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
 
-                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        <svg className="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                         </svg>
                         </button>
                     </div>
-                    <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                        <div class="hidden sm:block">
-                        <div class="flex space-x-4">
-                            <a href="#" class="text-gray-600 pr-9 rounded-md text-sm md:text-base font-medium font-semibold" aria-current="page">About</a>
+                    <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                        <div className="hidden sm:block">
+                        <div className="flex space-x-4">
+                            <a href="#" className="text-gray-600 pr-9 rounded-md text-sm md:text-base font-medium font-semibold" aria-current="page">About</a>
 
-                            <a href="#experience" class="text-gray-600 pr-9 rounded-md text-sm md:text-base font-medium font-semibold whitespace-nowrap">Skill & Experience</a>
+                            <a href="#experience" className="text-gray-600 pr-9 rounded-md text-sm md:text-base font-medium font-semibold whitespace-nowrap">Skill & Experience</a>
 
-                            <a href="#awards" class="text-gray-600 pr-9 rounded-md text-sm md:text-base font-medium font-semibold">Awards</a>
+                            <a href="#awards" className="text-gray-600 pr-9 rounded-md text-sm md:text-base font-medium font-semibold">Awards</a>
 
-                            <a href="#projects" class="text-gray-600 pr-9 rounded-md text-sm md:text-base font-medium font-semibold">Projects</a>
+                            <a href="#projects" className="text-gray-600 pr-9 rounded-md text-sm md:text-base font-medium font-semibold">Projects</a>
 
-                            <a href="#contacts" class="text-gray-600 pr-9 rounded-md text-sm md:text-base font-medium font-semibold">Contacts</a>
+                            <a href="#contacts" className="text-gray-600 pr-9 rounded-md text-sm md:text-base font-medium font-semibold">Contacts</a>
                         </div>
                         </div>
                     </div>
@@ -82,18 +87,18 @@ export default function Home() {
                 </div>
 
                 {/* <!-- Mobile menu, show/hide based on menu state. --> */}
-                <div class="sm:hidden" id="mobile-menu" style={{display: 'none'}}>
-                    <div class="px-2 pt-2 pb-3 space-y-1">
+                <div className="sm:hidden" id="mobile-menu" style={{display: 'none'}}>
+                    <div className="px-2 pt-2 pb-3 space-y-1">
 
-                    <a href="#about" class=" text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">About</a>
+                    <a href="#about" className=" text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">About</a>
 
-                    <a href="#experience" class="text-white block px-3 py-2 rounded-md text-base font-medium">Skill & Experience</a>
+                    <a href="#experience" className="text-white block px-3 py-2 rounded-md text-base font-medium">Skill & Experience</a>
 
-                    <a href="#awards" class="text-white block px-3 py-2 rounded-md text-base font-medium">Awards</a>
+                    <a href="#awards" className="text-white block px-3 py-2 rounded-md text-base font-medium">Awards</a>
 
-                    <a href="#projects" class="text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+                    <a href="#projects" className="text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
 
-                    <a href="#contacts" class="text-white block px-3 py-2 rounded-md text-base font-medium">Contacts</a>
+                    <a href="#contacts" className="text-white block px-3 py-2 rounded-md text-base font-medium">Contacts</a>
                     </div>
                 </div>
                 </nav>
@@ -229,7 +234,7 @@ export default function Home() {
                     {
                         honors.map((h, k) => {
                             return (
-                                <div className="awards-item py-3">
+                                <div className="awards-item py-3" key={k}>
                                     <div>
                                         <h5 className="text-xl sm:text-2xl font-bold text-gray-700 dark:text-gray-200 my-2">
                                             {h.name}

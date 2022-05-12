@@ -65,7 +65,7 @@ export default function Slider() {
                         <div className="item-description text-xs md:text-sm">
                             <b>{p.title}</b>
                             <p>{p.description}</p>
-                            <a href={p.type === "Private" ? "#" : p.link} target="_blank" className={"button inline-flex items-center px-3 py-1 md:px-4 md:py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-white "+p.type}>{(p.type === "Public" ? "Visit" : "Private")+" Website"}</a>
+                            <a href={p.type === "Private" ? "#" : p.link} target="_blank" rel="noreferrer" className={"button inline-flex items-center px-3 py-1 md:px-4 md:py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-white "+p.type}>{(p.type === "Public" ? "Visit" : "Private")+" Website"}</a>
                         </div>
                     </div>    
                 )
