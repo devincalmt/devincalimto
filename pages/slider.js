@@ -61,7 +61,7 @@ export default function Slider() {
             {projects.map((p, k) => {
                 return (
                     <div className="item" key={k}>
-                        <img src={p.image}/>
+                        <img src={p.image} alt={p.title}/>
                         <div className="item-description text-xs md:text-sm">
                             <b>{p.title}</b>
                             <p>{p.description}</p>

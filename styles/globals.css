@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('../public/asset/font/CarmenSans/stylesheet.css');
+@import url('../public/asset/font/Poppins/stylesheet.css');
+@import url('../public/asset/font/PrahoPro/stylesheet.css');
+
 * {
   font-family: 'Poppins';
 }

@@ -42,7 +42,10 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <Script src="https://use.fontawesome.com/46daf35aa3.js"></Script>
+        {/* <Script src="https://use.fontawesome.com/46daf35aa3.js"></Script> */}
+        <Script src="/asset/fontawesome/js/brands.js"></Script>
+        <Script src="/asset/fontawesome/js/solid.js"></Script>
+        <Script src="/asset/fontawesome/js/fontawesome.js"></Script>
         <Script src="/js/jquery.js"></Script>
         <Script src="/js/scripts.js"></Script>
 
@@ -122,16 +125,16 @@ export default function Home() {
                                     </div>
                                     <div className="grid grid-cols-4 gap-4">
                                         <a href="https://www.linkedin.com/in/devinca-limto-1a9b5b186/">
-                                            <i aria-hidden="true" className="fa fa-linkedin"></i>
+                                            <i aria-hidden="true" className="fab fa-linkedin"></i>
                                         </a>
                                         <a href="https://t.me/devincalmt">
-                                            <i aria-hidden="true" className="fa fa-telegram"></i>
+                                            <i aria-hidden="true" className="fab fa-telegram"></i>
                                         </a>
                                         <a href="https://www.instagram.com/devincalmt/">
-                                            <i aria-hidden="true" className="fa fa-instagram"></i>
+                                            <i aria-hidden="true" className="fab fa-instagram"></i>
                                         </a>
                                         <a href="https://github.com/devincalmt">
-                                            <i aria-hidden="true" className="fa fa-github"></i>
+                                            <i aria-hidden="true" className="fab fa-github"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -165,7 +168,7 @@ export default function Home() {
                                 skills.map((s, k) => {
                                     return (
                                         <div className="text-center" key={k}>
-                                            <img src={s.image} alt="" srcSet=""/>
+                                            <img src={s.image} alt={s.name} srcSet=""/>
                                             <h6 className="hidden 2md:block text-1xl md:text-1xl font-bold text-gray-700 dark:text-gray-200 my-2 title">{s.name}</h6>
                                         </div>
                                     )
@@ -183,7 +186,7 @@ export default function Home() {
                                     <div className={"grid grid-cols-4 grid-rows-"+(e.position.length+1)+" gap-x-2 xs:gap-x-3 mt-4"} key={k}>
                                         <div className="company-left row-span-full">
                                             <div className="rect-img-container">
-                                                <img className="rect-img" src={e.company_image} alt=""/>
+                                                <img className="rect-img" src={e.company_image} alt={e.company_name}/>
                                             </div>
                                         </div>
                                         <div className="company-right col-span-3">
@@ -288,16 +291,16 @@ export default function Home() {
                 </div>
                 <div className="contact-social-media">
                     <a href="https://www.linkedin.com/in/devinca-limto-1a9b5b186/">
-                        <i aria-hidden="true" className="fa fa-linkedin"></i>
+                        <i aria-hidden="true" className="fab fa-linkedin"></i>
                     </a>
                     <a href="https://t.me/devincalmt">
-                        <i aria-hidden="true" className="fa fa-telegram"></i>
+                        <i aria-hidden="true" className="fab fa-telegram"></i>
                     </a>
                     <a href="https://www.instagram.com/devincalmt/">
-                        <i aria-hidden="true" className="fa fa-instagram"></i>
+                        <i aria-hidden="true" className="fab fa-instagram"></i>
                     </a>
                     <a href="https://github.com/devincalmt">
-                        <i aria-hidden="true" className="fa fa-github"></i>
+                        <i aria-hidden="true" className="fab fa-github"></i>
                     </a>
                 </div>
             </div>
